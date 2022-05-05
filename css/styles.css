@@ -15,20 +15,12 @@
   align-items: center;
 }
 
-.list {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-}
-
 .header {
   border-bottom: 1px solid #ececec;
 }
 
 .header-logo {
-  font-family: Raleway;
+  font-family: var(--logo-font);
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
@@ -49,7 +41,7 @@ a {
 
 .header-nav-list,
 .header-contacts {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--primary-page-font);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -114,18 +106,7 @@ a {
   fill: currentColor;
 }
 
-.hero {
-  font-family: Roboto, sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  /* or 171% */
 
-  letter-spacing: 0.03em;
-
-  color: #212121;
-}
 
 .main-section {
   display: block;
@@ -148,7 +129,7 @@ a {
 }
 
 .main-section-description {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--primary-page-font);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -163,7 +144,7 @@ a {
 }
 
 .main-section-button {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--primary-page-font);
   font-size: 16px;
   line-height: 1.88;
   align-items: center;
@@ -198,7 +179,7 @@ a {
 }
 
 .about-us-header {
-  font-family: Roboto, sans-serif;
+  font-family: var(--primary-page-font);
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -210,7 +191,7 @@ a {
 }
 
 .about-us-description {
-  font-family: Roboto, sans-serif;
+  font-family: var(--primary-page-font);
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -241,7 +222,7 @@ a {
   width: 270px;
   height: 120px;
   margin-bottom: 30px;
-  background-color: #f5f4fa;
+  background-color: var(--gray-bg);
   border-radius: 4px;
 }
 
@@ -249,18 +230,7 @@ a {
   padding-bottom: 94px;
 }
 
-.what-we-do-header {
-  font-family: Roboto, sans-serif;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
 
-  color: #212121;
-  display: block;
-  padding-bottom: 50px;
-}
 
 .what-we-do-list {
   display: flex;
@@ -273,7 +243,7 @@ a {
 }
 
 .img-description {
-  font-family: 'Roboto';
+  font-family: var(--primary-page-font);
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -299,7 +269,7 @@ a {
 }
 
 .team-section {
-  background: #f5f4fa;
+  background: var(--gray-bg);
   padding-bottom: 94px;
   padding-top: 94px;
 }
@@ -327,20 +297,10 @@ a {
   margin-left: 30px;
 }
 
-.team-header {
-  font-family: Roboto, sans-serif;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
 
-  color: #212121;
-  padding-bottom: 50px;
-}
 
 .team-member-name {
-  font-family: Roboto, sans-serif;
+  font-family: var(--primary-page-font);
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -355,7 +315,7 @@ a {
 }
 
 .team-member-position {
-  font-family: Roboto, sans-serif;
+  font-family: var(--primary-page-font);
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -411,19 +371,6 @@ a {
   padding-bottom: 94px;
 }
 
-.clients-header {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 42px;
-  text-align: center;
-  letter-spacing: 0.03em;
-
-  color: #212121;
-  padding-bottom: 50px;
-}
-
 .client-link {
   display: flex;
   align-items: center;
@@ -460,7 +407,7 @@ a {
 }
 
 .footer-logo {
-  font-family: Raleway, sans-serif;
+  font-family: var(--logo-font);
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
@@ -485,7 +432,7 @@ a {
 }
 
 .footer-address {
-  font-family: Roboto, sans-serif;
+  font-family: var(--primary-page-font);
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -506,7 +453,7 @@ a {
 }
 
 .footer-contacts-link {
-  font-family: Roboto, sans-serif;
+  font-family: var(--primary-page-font);
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -528,7 +475,7 @@ a {
 }
 
 .footer-social-header {
-  font-family: "Roboto";
+  font-family: var(--primary-page-font);
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -567,7 +514,7 @@ a {
 }
 
 .project-name {
-  font-family: Roboto, sans-serif;
+  font-family: var(--primary-page-font);
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -579,7 +526,7 @@ a {
 }
 
 .project-type {
-  font-family: Roboto, sans-serif;
+  font-family: var(--primary-page-font);
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -599,7 +546,7 @@ a {
 }
 
 .filter-button-all {
-  font-family: Roboto, sans-serif;
+  font-family: var(--primary-page-font);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -629,7 +576,7 @@ a {
 }
 
 .filter-button-web {
-  font-family: Roboto, sans-serif;
+  font-family: var(--primary-page-font);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -659,7 +606,7 @@ a {
 }
 
 .filter-button-app {
-  font-family: Roboto, sans-serif;
+  font-family: var(--primary-page-font);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -689,7 +636,7 @@ a {
 }
 
 .filter-button-design {
-  font-family: Roboto, sans-serif;
+  font-family: var(--primary-page-font);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -719,7 +666,7 @@ a {
 }
 
 .filter-button-marketing {
-  font-family: Roboto, sans-serif;
+  font-family: var(--primary-page-font);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -790,7 +737,7 @@ a {
 }
 
 .overlay-description {
-  font-family: 'Roboto';
+  font-family: var(--primary-page-font);
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -879,7 +826,7 @@ a {
 }
 
 .modal-header {
-  font-family: 'Roboto';
+  font-family: var(--primary-page-font);
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -891,7 +838,7 @@ a {
 }
 
 .input-description {
-  font-family: 'Roboto';
+  font-family: var(--primary-page-font);
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -959,7 +906,7 @@ a {
 }
 
 .checkbox-label {
-  font-family: 'Roboto';
+  font-family: var(--primary-page-font);
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -1001,7 +948,7 @@ a {
 }
 
 .modal-btn-submit {
-  font-family: 'Roboto';
+  font-family: var(--primary-page-font);
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -1033,7 +980,7 @@ a {
 }
 
 .get-mail-newsletter {
-  font-family: 'Roboto';
+  font-family: var(--primary-page-font);
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -1045,7 +992,7 @@ a {
 }
 
 .footer-newsletter-button {
-  font-family: 'Roboto';
+  font-family: var(--primary-page-font);
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -1092,7 +1039,7 @@ a {
 }
 
 .footer-mail-input::placeholder {
-  font-family: 'Roboto';
+  font-family: var(--primary-page-font);
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
