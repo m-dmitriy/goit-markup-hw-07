@@ -1,4 +1,4 @@
-.header-container {
+.header__container {
     display: flex;
     align-items: center;
 
@@ -6,7 +6,7 @@
     padding-bottom: 25px;
 }
 
-.header-nav-list {
+.header__nav_list {
     display: flex;
     align-items: center;
 }
@@ -15,12 +15,12 @@
     border-bottom: 1px solid #ececec;
 }
 
-.header-nav-item:not(:last-child) {
+.header__nav_item:not(:last-child) {
     margin-right: 50px;
 }
 
-.header-nav-list,
-.header-contacts {
+.header__nav_list,
+.header__contacts {
     font-family: var(--primary-page-font);
     font-weight: 500;
     font-size: 14px;
@@ -31,22 +31,22 @@
     margin-bottom: 0px;
 }
 
-.header-nav-link:hover,
-.header-nav-link:focus,
-.header-contacts-link-mail:hover,
-.header-contacts-link-mail:focus,
-.header-contacts-link-tel:hover,
-.header-contacts-link-tel:focus {
+.header__nav_link:hover,
+.header__nav_link:focus,
+.header__contacts_link-mail:hover,
+.header__contacts_link-mail:focus,
+.header__contacts_link-tel:hover,
+.header__contacts_link-tel:focus {
     color: var(--accent-color);
 }
 
-.header-nav-link {
+.header__nav_link {
     position: relative;
     color: var(--black);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.link-line::after {
+.header__link_line::after {
     content: "";
     position: absolute;
     left: 0px;
@@ -57,31 +57,31 @@
     border-radius: 2px;
 }
 
-.header-contacts {
+.header__contacts {
     display: flex;
     align-items: center;
     margin-left: auto;
 }
 
-.header-contacts-link-mail {
+.header__contacts_link-mail {
     margin-right: 30px;
     display: flex;
     align-items: center;
 }
 
-.header-contacts-link-tel {
+.header__contacts_link-tel {
     display: flex;
     align-items: center;
 }
 
-.header-contacts-link-mail,
-.header-contacts-link-tel {
+.header__contacts_link-mail,
+.header__contacts_link-tel {
     color: var(--gray);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon-mail,
-.icon-tel {
+.header__icon_mail,
+.header__icon_tel {
     margin-right: 10px;
     fill: currentColor;
 }

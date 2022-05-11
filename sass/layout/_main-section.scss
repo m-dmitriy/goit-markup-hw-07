@@ -1,4 +1,4 @@
-.main-section {
+.main__section {
     display: block;
     padding-top: 200px;
     padding-bottom: 200px;
@@ -16,7 +16,7 @@
     background-position: center;
 }
 
-.main-section-description {
+.main__section-description {
     font-family: var(--primary-page-font);
     font-weight: 900;
     font-size: 44px;
@@ -31,7 +31,7 @@
     padding-bottom: 30px;
 }
 
-.main-section-button {
+.main__section-button {
     font-family: var(--primary-page-font);
     font-size: 16px;
     line-height: 1.88;
