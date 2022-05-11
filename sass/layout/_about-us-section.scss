@@ -34,10 +34,10 @@
 
 .about-us-container {
     width: 270px;
-}
 
-.about-us-container:not(:last-child) {
-    margin-right: 30px;
+    &:not(:last-child) {
+            margin-right: 30px;
+        }
 }
 
 .about-us-bg {

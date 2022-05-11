@@ -21,10 +21,10 @@
     border-radius: 0px 0px 4px 4px;
 
     flex-basis: calc((100% - 120px) / 4);
-}
 
-.team-member-card:not(:first-child) {
-    margin-left: 30px;
+    &:not(:first-child) {
+            margin-left: 30px;
+        }
 }
 
 .team-member-name {

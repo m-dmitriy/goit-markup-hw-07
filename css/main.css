@@ -95,8 +95,7 @@ a {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-social-link-bg:hover,
-.footer-social-link-bg:focus {
+.footer-social-link-bg:hover, .footer-social-link-bg:focus {
   background-color: var(--accent-color);
 }
 
@@ -121,17 +120,16 @@ a {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.social-link-bg:hover, .social-link-bg:focus {
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+
 .icon-insta,
 .icon-twitter,
 .icon-facebook,
 .icon-linkedin {
   fill: currentColor;
-}
-
-.social-link-bg:hover,
-.social-link-bg:focus {
-  color: #ffffff;
-  background-color: var(--accent-color);
 }
 
 .logo {
@@ -165,6 +163,12 @@ a {
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.backdrop.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
 .modal {
   width: 528px;
   height: 581px;
@@ -194,19 +198,13 @@ a {
   cursor: pointer;
 }
 
-.modal-close-icon {
-  fill: currentColor;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .modal-close-btn:hover {
   color: var(--accent-color);
 }
 
-.backdrop.is-hidden {
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
+.modal-close-icon {
+  fill: currentColor;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-inputs {
@@ -307,18 +305,6 @@ a {
   align-items: center;
 }
 
-.checkbox-wrapper {
-  justify-content: center;
-  display: flex;
-  margin-top: 20px;
-  margin-bottom: 30px;
-}
-
-.policy-link {
-  color: #2196F3;
-  text-decoration: underline;
-}
-
 .checkbox-label::before {
   display: inline-block;
   width: 16px;
@@ -335,6 +321,18 @@ a {
   border: none;
   background-repeat: no-repeat;
   background-position: 50% 50%;
+}
+
+.checkbox-wrapper {
+  justify-content: center;
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.policy-link {
+  color: #2196F3;
+  text-decoration: underline;
 }
 
 .modal-btn-submit {
@@ -359,8 +357,7 @@ a {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-btn-submit:hover,
-.modal-btn-submit:focus {
+.modal-btn-submit:hover, .modal-btn-submit:focus {
   background-color: #188CE8;
 }
 
@@ -391,8 +388,7 @@ a {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.filter-button:hover,
-.filter-button:focus {
+.filter-button:hover, .filter-button:focus {
   background-color: var(--accent-color);
   color: #ffffff;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -532,8 +528,7 @@ a {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.main-section-button:hover,
-.main-section-button:focus {
+.main-section-button:hover, .main-section-button:focus {
   background-color: #188ce8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -600,10 +595,6 @@ a {
   margin-bottom: 0px;
 }
 
-.what-we-do-img:not(:last-child) {
-  margin-right: 30px;
-}
-
 .img-description {
   font-family: var(--primary-page-font);
   font-style: normal;
@@ -620,6 +611,10 @@ a {
 
 .what-we-do-img {
   position: relative;
+}
+
+.what-we-do-img:not(:last-child) {
+  margin-right: 30px;
 }
 
 .img-bg {
@@ -701,14 +696,13 @@ a {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon-client {
-  fill: currentColor;
-}
-
-.client-link:hover,
-.client-link:focus {
+.client-link:hover, .client-link:focus {
   color: var(--accent-color);
   border-color: var(--accent-color);
+}
+
+.icon-client {
+  fill: currentColor;
 }
 
 .clients-list {
@@ -764,8 +758,7 @@ a {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-contacts-link:hover,
-.footer-contacts-link:focus {
+.footer-contacts-link:hover, .footer-contacts-link:focus {
   color: var(--accent-color);
 }
 
@@ -894,8 +887,7 @@ a {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.project:hover,
-.project:focus {
+.project:hover, .project:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
   cursor: pointer;
 }

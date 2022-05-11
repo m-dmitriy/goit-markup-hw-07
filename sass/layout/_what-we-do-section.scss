@@ -8,10 +8,6 @@
     margin-bottom: 0px;
 }
 
-.what-we-do-img:not(:last-child) {
-    margin-right: 30px;
-}
-
 .img-description {
     font-family: var(--primary-page-font);
     font-style: normal;
@@ -29,6 +25,10 @@
 
 .what-we-do-img {
     position: relative;
+
+    &:not(:last-child) {
+            margin-right: 30px;
+        }
 }
 
 .img-bg {
